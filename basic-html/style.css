@@ -1,7 +1,17 @@
 :root {
       --main-bg-color: #e1e0e5;
+      --text-color: #333;
 }
 
 body {
       background: var(--main-bg-color);
+}
+
+a {
+      text-decoration: none;
+      color: var(--text-color);
+}
+
+a:visited {
+      color: #000;
 }
